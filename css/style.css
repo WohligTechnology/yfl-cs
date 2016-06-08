@@ -1293,21 +1293,18 @@ footer {
     height: 11px;
 }
 .copyright_cont .col-50 {
-    width: 100%;
+    width: 50%;
     font-family: 'jurabold';
-    float: none;
+    float: left;
     line-height: 40px;
-    text-align: center;
 }
 .copyright_cont .col-50 a {
     color: black;
     text-decoration: none;
 }
-.copyright_cont .col-50:nth-child(2) a {
+.copyright_cont .col-50:nth-child(2) {
     text-align: right;
-    float: right;
     color: black;
-    width: 100%;
     text-decoration: none;
 }
 .newsletter input, .feedback_box input {
@@ -1651,4 +1648,30 @@ header, .insta_images, nav, .footer_images {}
 		.max-contain {
 			padding: 0 20px;
 		}
+}
+.content-view {
+    max-width: 1160px;
+    padding: 0 10px;
+    margin: 40px auto;
+    font-family: 'juraregular';
+}
+.content-view ul {
+    padding: 0 0 0 20px;
+}
+.content-view p, .content-view ul  {
+    margin-bottom: 10px;
+    line-height: 150%;
+}
+.content-view p+ul {
+    margin-top: -10px;
+}
+.content-view h4 {
+    font-family: 'jurabold';
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+.content-view h2 {
+    font-family: 'jurabold';
+    font-size: 22px;
+    margin-bottom: 10px;
 }
