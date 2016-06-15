@@ -1526,6 +1526,7 @@ header, .insta_images, nav, .footer_images {}
     }
     .copyright_cont .col-50:nth-child(2) {
         margin: 0px 0px 10px 0px;
+        text-align: center;
     }
     .logo {
         width: 177px;
@@ -1640,7 +1641,7 @@ header, .insta_images, nav, .footer_images {}
 @media screen and (max-width: 500px) {
     .copyright_cont .col-50 a {
         width: 100%;
-        float: left;
+        /* float: left; */
     }
 		.col-3 {
 			width: 100%;
@@ -1674,4 +1675,8 @@ header, .insta_images, nav, .footer_images {}
     font-family: 'jurabold';
     font-size: 22px;
     margin-bottom: 10px;
+}
+.trans img {
+    width: 55%;
+    margin: 2px 0 0;
 }
