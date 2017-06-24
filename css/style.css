@@ -344,7 +344,11 @@ footer .bord_image {
     -webkit-appearance: none;
     color: white;
 }
-
+.gratitude{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -25px;
+}
 /*
 .newsletter input[type="submit"] {
 background-color: transparent;
@@ -1293,17 +1297,18 @@ footer {
     height: 11px;
 }
 .copyright_cont .col-50 {
-    width: 50%;
+    width: 33%;
     font-family: 'jurabold';
-    float: left;
+    display: inline-block;
     line-height: 40px;
+    margin: 0 auto
 }
 .copyright_cont .col-50 a {
     color: black;
     text-decoration: none;
 }
 .copyright_cont .col-50:nth-child(2) {
-    text-align: right;
+    /*text-align: right;*/
     color: black;
     text-decoration: none;
 }
@@ -1373,6 +1378,29 @@ footer .col-2 .footer_links ul li {
     width: 100%;
     float: left;
 }
+
+.heart{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -3px;
+    animation: beat .50s infinite alternate;
+}
+
+@keyframes beat{
+	to { transform: scale(1.2); }
+}
+
+.heart img{
+         width: 16px;
+    }
+
+
+
+.animated {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
 .logo {
     width: 181px;
     height: 190px;
@@ -1406,6 +1434,7 @@ header h3 {
     opacity: 0;
     z-index: 1;
 }
+
 .slick-prev, .slick-next {
     left: 25px;
     display: none!important;
